@@ -14,3 +14,23 @@
 - `:clo[se]` -close current pane
 - `:ter[minal]` -open a terminal window
 - `K` -open man page for word under the cursor
+
+# Cut and Paste
+
+- `yy` -yank (copy) a line
+- `2yy` -yank (copy) 2 lines
+- `yw` -yank(copy) the characters of the word from the cursor position to the start of the next word.
+- `yiw` -yank(copy) word under the cursor
+- `yaw` -yank(copy) word under the cursor and the space after or before it
+- `y$` or `Y` -yank(copy) to end of line
+- `p` -put (paste) the clipboard after cursor
+- `P` -put(paste) before cursor
+- `gp` -put(paste) the clipboard after cursor and leave cursor after the new text
+- `gP` -put(paste) before cursor and leave cursor after the new text
+- `dd` -delete(cut) lines
+- `2dd` -delete(cut) 2 lines
+- `dw` -delete(cut) the characters of the word from the cursor position to the start of the next word
+- `diw` -delete (cut) word under the cursor and the space after or before it
+- `daw` -delete(cut) word under the cursor and the space after or before it
+- `d$` or `D` -delete (cut) to the end of the line
+- `x`- delete (cut) character
